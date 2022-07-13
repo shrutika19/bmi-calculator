@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  padding: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #eec4c4;
+  padding: 2px;
+}
+
+.card {
+  margin: auto auto;
+  float: right;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: #27263b;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* 
+.GradientBorder {
+  position: relative;
+  width: 450px;
+  padding: 40px 0;
+  color: #fff;
+  letter-spacing: 5px;
+  background: #020117;
+}
+.GradientBorder::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(40deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  z-index: -1;
+}
+.GradientBorder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(40deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  z-index: -2;
+  filter: blur(20px);
+} */
